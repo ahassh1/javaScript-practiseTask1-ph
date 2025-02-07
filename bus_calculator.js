@@ -5,22 +5,21 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
-
-var busticket = 1000;
-var age=100;
+const busTicket = 800;
+const age=80;
 
 if(age <= 10){
     console.log("childrens ticket free ")
 }
-else if( busticket>1000 || age >100){
-    var discount = 1000*50/100;
-    var nowTicket = busticket-discount;
-   console.log("students ticket")
+else if( age >10){
+    const discount = busTicket *50/100;
+    const nowTicketPayment = busTicket - discount;
+   console.log(nowTicketPayment)
 }
-else if( age>=60 || busticket >=900){
-  var discount = 1000*20/100;
-  var nowTicket = busticket-discount;
-  console.log("senior citizens ticket")
+else if( age>=60){
+  const discount = busTicket *20/100;
+  const nowTicketPayment = busTicket - discount;
+  console.log(nowTicketPayment)
 }
 else{
   console.log("you don't get ticket")

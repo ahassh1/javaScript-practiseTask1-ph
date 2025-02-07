@@ -1,5 +1,4 @@
 /***
-
 you have two numbers in two variables, called: num1, num2
 
 now declare a variable called result. 
@@ -8,5 +7,4 @@ if num1 is bigger than num2 then result will be double of num1. if not, then the
 write a simple if-else. 
 
 also, write it using ternary operator.
-
  */
