@@ -5,11 +5,11 @@
 // Remove the last tourist destination you have added
 // display the final array as output
 
-var tourPlace = ['coxbazar, shundorbon, shajek'];
+var tourPlace = ['coxbazar', 'shundorbon', 'shajek'];
 console.log(tourPlace)
 tourPlace.push('kaptiLekh')
 console.log(tourPlace)
 tourPlace.unshift('shitakunda')
 console.log(tourPlace)
 tourPlace.pop();
-console.log(tourPlace)
+console.log(tourPlace);
