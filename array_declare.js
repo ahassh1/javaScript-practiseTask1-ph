@@ -4,7 +4,7 @@
 // change the value of the 2nd index element to jambura
 // console log the final array
 
-var fruits = ["jackFruts, mango, waterMilon, litchi, banana"];
+var fruits = ["jackFruts"," mango", "waterMilon", "litchi", "banana"];
 console.log(fruits)
 console.log(fruits[2])
 fruits[2]="jambura";
