@@ -12,4 +12,4 @@ console.log(tourPlace)
 tourPlace.unshift('shitakunda')
 console.log(tourPlace)
 tourPlace.pop();
-console.log(tourPlace)
+console.log(tourPlace);
